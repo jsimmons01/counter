@@ -16,10 +16,10 @@ I took a look at the solution and there is a better way. Now without looking bac
 
 ~2. create query select all for buttons~
 
-3. use for each to look through buttons
+~3. use for each to look through buttons~
 
-4. create a function to change the text on the page
+~4. create a function to change the text on the page~
 
-5. text color is green with positive numbers
+~5. text color is green with positive numbers~
 
-6. text color is red with negative numbers
+~6. text color is red with negative numbers~

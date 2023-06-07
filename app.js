@@ -36,9 +36,30 @@ Better solution
 let count = 0;
 const displayCount = document.querySelector('#value');
 
-const btns = document.querySelectorAll('btn')
+const btns = document.querySelectorAll('.btn')
 
-btns.addEventListener('click',function(){
-    
+btns.forEach(function(btn){
+    btn.addEventListener('click', function(e){
+        const counter = e.currentTarget.classList;
+      if(counter.contains('count-down')){
+        count--;
+     
+      } else if (counter.contains('count-up')){
+        count++;
+      } else{
+        count = 0;
+      }
+      if(count < 0){  
+         displayCount.style.color = 'red';
+        } else if ( count > 0){
+            displayCount.style.color ='green';
+        } else {
+            displayCount.style.color = 'black';
+        }
+      displayCount.textContent = count;
+   
+    })     
+
 })
+
 
