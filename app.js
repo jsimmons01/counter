@@ -1,3 +1,6 @@
+
+// My solution 
+/* 
 const countUp = document.getElementById('count-up');
 const countDown = document.getElementById('count-down');
 const reset = document.getElementById('reset')
@@ -22,6 +25,14 @@ reset.addEventListener('click', function(){
     count = 0;
     console.log(`Count is currently: ${count}`);
     value.textContent = count;
-})
+})*/
 
 
+//Better solution
+//intial count
+let count = 0;
+
+const countUp = document.getElementById('count-up');
+const countDown = document.getElementById('count-down');
+const reset = document.getElementById('reset')
+const displayCount = document.querySelector('#value')
