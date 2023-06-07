@@ -14,7 +14,7 @@ I took a look at the solution and there is a better way. Now without looking bac
 
 ~1. Add classes to the button~
 
-2. create query select all for buttons
+~2. create query select all for buttons~
 
 3. use for each to look through buttons
 

@@ -28,11 +28,17 @@ reset.addEventListener('click', function(){
 })*/
 
 
-//Better solution
+/*************** 
+Better solution
+****************/
+
 //intial count
 let count = 0;
+const displayCount = document.querySelector('#value');
 
-const countUp = document.getElementById('count-up');
-const countDown = document.getElementById('count-down');
-const reset = document.getElementById('reset')
-const displayCount = document.querySelector('#value')
+const btns = document.querySelectorAll('btn')
+
+btns.addEventListener('click',function(){
+    
+})
+
